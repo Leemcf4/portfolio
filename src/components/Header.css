@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: transparent;
+  background: none;
+  position: fixed;
+  width: 100vw;
+
+  padding: 20px;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.header-middle {
+}
