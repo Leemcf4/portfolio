@@ -22,7 +22,7 @@ function ProjectSection() {
         skillsUsed={["Laravel/PHP Custom Theme", "Sass", "Wordpress"]}
       />
       <Project
-        projectLink={"https://pedantic-leakey-cdd793.netlify.app/"}
+        projectLink={"https://taste-goodness.netlify.app/"}
         projectImg={"/tog_logo_full.png"}
         title={"taste of goodness"}
         description={"(Still in development) An exercise in CSS and animations"}
