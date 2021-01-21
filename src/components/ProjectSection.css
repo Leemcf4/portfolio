@@ -1,10 +1,10 @@
 .project-section {
   width: 90%;
-  height: 50vh;
+  height: 80vh;
 
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   flex-wrap: wrap;
   overflow: scroll;
   background-color: rgba(223, 223, 223, 0.6);

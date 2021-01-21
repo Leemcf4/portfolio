@@ -1,11 +1,9 @@
 .sections {
-  scroll-snap-type: y mandatory;
   overflow: auto;
   height: 100vh;
 }
 
 .project-section-container {
-  scroll-snap-align: center;
   display: flex;
   justify-content: center;
 }

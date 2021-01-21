@@ -1,16 +1,22 @@
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 
   background-color: transparent;
   background: none;
   position: fixed;
   width: 100vw;
+  margin-top: 30px;
 
-  padding: 20px;
   z-index: 100;
   overflow: hidden;
 }
 
-.header-middle {
+.nav-links * {
+  padding-right: 7px;
+  padding-left: 7px;
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+  font-size: 1.2rem;
 }

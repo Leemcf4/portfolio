@@ -62,12 +62,6 @@ function Section({
           )}
         </div>
         {showLower && <div className="section-lower">{lowerText}</div>}
-
-        {showForm && (
-          <div className="form-container">
-            <Form />
-          </div>
-        )}
       </div>
     </div>
   );
