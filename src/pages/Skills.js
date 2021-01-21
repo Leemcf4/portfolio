@@ -6,10 +6,7 @@ import "./Skills.css";
 function Skills() {
   const [state, setstate] = useState(" ");
   return (
-    <div
-      className="skills-page"
-      style={{ backgroundImage: `url(/skillsbg.jpg)` }}
-    >
+    <div className="skills-page">
       <BarChart />
     </div>
   );

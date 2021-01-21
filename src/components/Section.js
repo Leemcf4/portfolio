@@ -8,7 +8,6 @@ import { Button } from "@material-ui/core";
 function Section({
   title,
   description,
-  backgroundImg,
   showIcon,
   linkedinLink,
   githubLink,
@@ -21,10 +20,7 @@ function Section({
   lowerText,
 }) {
   return (
-    <div
-      className="section"
-      style={{ backgroundImage: `url(${backgroundImg})` }}
-    >
+    <div className="section">
       <div className="section-container">
         <div className="section-title">
           <h1>{title}</h1>

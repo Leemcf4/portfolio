@@ -5,7 +5,7 @@ import Section from "../components/Section";
 
 function Contact() {
   return (
-    <div className="contact" style={{ backgroundImage: `url(/3417082.jpg)` }}>
+    <div className="contact">
       <div className="contact-page-container">
         <div className="form-container">
           <Form />

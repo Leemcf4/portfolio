@@ -42,6 +42,7 @@
   width: auto;
   object-fit: contain;
   background-color: whitesmoke;
+  filter: hue-rotate(0deg) !important;
 }
 
 .project-list > ul {

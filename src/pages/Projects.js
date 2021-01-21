@@ -4,10 +4,7 @@ import "./Projects.css";
 
 function Projects() {
   return (
-    <div
-      className="projects"
-      style={{ backgroundImage: `url(/projectbg.jpg)` }}
-    >
+    <div className="projects">
       <div className="project-section-container">
         <ProjectSection />
       </div>

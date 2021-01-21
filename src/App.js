@@ -12,9 +12,11 @@ import Skills from "./pages/Skills";
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
-        <Header />
-      </div>
+      <div
+        className="App"
+        style={{ backgroundImage: "url(/3417081.jpg)" }}
+      ></div>
+      <Header />
       <Switch>
         <Route exact path="/" component={HomePage}></Route>
         <Route path="/projects" component={Projects}></Route>
