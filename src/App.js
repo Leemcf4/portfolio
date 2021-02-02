@@ -1,9 +1,6 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
-import Form from "./components/Form";
 import Header from "./components/Header";
-import ProjectSection from "./components/ProjectSection";
-import Section from "./components/Section";
 import Contact from "./pages/Contact";
 import HomePage from "./pages/HomePage";
 import Projects from "./pages/Projects";

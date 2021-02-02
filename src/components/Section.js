@@ -2,7 +2,6 @@ import React from "react";
 import "./Section.css";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import Form from "./Form";
 import { Button } from "@material-ui/core";
 
 function Section({

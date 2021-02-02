@@ -8,13 +8,13 @@ function HomePage() {
       <Section
         backgroundImg={"/3417081.jpg"}
         title={"Lee McFarland"}
-        description={"React Developer"}
+        description={"Front End Developer"}
         showIcon={true}
         linkedinLink={"https://www.linkedin.com/in/lee-mcfarland-b7510913a"}
         githubLink={"https://github.com/Leemcf4"}
         showAboutMe={true}
         aboutMe={
-          "I am a front end developer with full stack experience focusing on React. I am ready to commit to this journey and keep learning the newest technologies and standards.  "
+          "I like to make pretty things.                                                                                 "
         }
         showButton={true}
         buttonLink={

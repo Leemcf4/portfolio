@@ -1,6 +1,6 @@
-import React from "react";
-import Project from "./Project";
-import "./ProjectSection.css";
+import React from "react"
+import Project from "./Project"
+import "./ProjectSection.css"
 
 function ProjectSection() {
   return (
@@ -12,14 +12,26 @@ function ProjectSection() {
         description={
           "A team effort, later headed by me to get it over the line. A headache but done!"
         }
-        skillsUsed={["Laravel/PHP Custom Theme", "Sass", "Wordpress"]}
+        skillsUsed={[
+          "Laravel/PHP Custom Theme",
+          "Sass",
+          "Wordpress",
+          "Woocommerce",
+        ]}
       />
       <Project
-        projectLink={"http://furnitureshowni.com/"}
-        projectImg={"/fsnilogo.png"}
-        title={"Furniture Show NI"}
-        description={"A seasonal website. Come back in September!"}
-        skillsUsed={["Laravel/PHP Custom Theme", "Sass", "Wordpress"]}
+        projectLink={"http://209.97.188.179/"}
+        projectImg={"/reddit-logo.png"}
+        title={"Seddit"}
+        description={
+          "A nearly fully functional reddit clone and a nightmare to deploy. Go make an account and post!"
+        }
+        skillsUsed={[
+          "TypeScript, Next.js, TailwindCSS",
+          "TypeORM, Postgres, Node, Express",
+          "JSON web tokens, auth routes, user routes",
+          "SWR for caching and revalidating and infinte scroll",
+        ]}
       />
       <Project
         projectLink={"https://taste-goodness.netlify.app/"}
@@ -62,7 +74,7 @@ function ProjectSection() {
         ]}
       />
     </div>
-  );
+  )
 }
 
-export default ProjectSection;
+export default ProjectSection
